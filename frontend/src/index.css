@@ -1,0 +1,24 @@
+.main-content {
+  min-height: calc(100vh - 155px);
+}
+
+.product-card {
+  min-height: 430px;
+}
+
+.product-card:hover {
+  box-shadow: 2px 5px 8px rgba(33, 33, 33, 0.5);
+  cursor: pointer;
+}
+
+.product-image {
+  max-height: 250px;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
