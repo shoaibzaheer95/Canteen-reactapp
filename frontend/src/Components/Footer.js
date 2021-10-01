@@ -1,8 +1,6 @@
 import React from "react";
 import { LinkContainer } from 'react-router-bootstrap';
 import Cartbutton from './Cartbutton';
-import CartModal from './CartModal';
-import SideMenu from './SideMenu';
 
 
 const Footer = () => {
@@ -36,8 +34,7 @@ const Footer = () => {
 
 
       </div>
-      <CartModal >
-        </CartModal>
+      
   </>
 
   );

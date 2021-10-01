@@ -1,13 +1,10 @@
 import {React} from 'react';
 
 const CartModal = () => {
-    const toggleClass = () => {
-		//setActive(!isActive);
-	};   
   return (
     <>
     
-      <div className="modal-cart-wrapper checkoutM hide">
+      <div className="modal-cart-wrapper checkoutM ">
             <div className="cart-cut"> 
                 <div className="upper-cart">
                     <div className="bnd-row">
@@ -16,7 +13,7 @@ const CartModal = () => {
                             <span className="hide model-title">My Cart</span> 
                             <span className="backto"><a href="#"><img src="../images/BackArrowicon.svg" alt="<<" /></a></span>
                         </h2>
-                        <span className="close-cart" onClick={toggleClass}>	
+                        <span className="close-cart" >	
                             <img src="../images/Closeicon.svg" alt="X" />
                         </span>
 

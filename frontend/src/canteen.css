@@ -436,7 +436,7 @@ img{max-width: 100%;}
     transition: all .45s ease;
     z-index: -1;
 }
-.sidemenu-bar.opened {
+.show .sidemenu-bar {
    opacity: 1;
    width: 360px;
     z-index: 1;
@@ -465,6 +465,8 @@ img{max-width: 100%;}
 .top-close {
     padding:30px;
     border-bottom: 0.5px solid #DDD;
+    text-align: left;
+
 }
 .middle-bar {
     padding: 50px 30px;

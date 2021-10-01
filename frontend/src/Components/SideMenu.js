@@ -1,20 +1,19 @@
 import {React} from 'react'
+import {LinkContainer} from 'react-router-bootstrap'
 
-const SideMenu = (props) => {
-	const toggleClass = () => {
-		//setActive(!isActive);
-	};
+const SideMenu = () => {
+	
   return (
 	<>
 		<div  className="sidemenu-bar">
-				<div className="top-close" onClick={toggleClass} >
+				<div className="top-close"  >
 					<span className="sideclose">	
 						<img src="../images/Closeicon.svg" alt="X" />
 					</span>
 				</div>
 				<div className="middle-bar">
 					<ul>
-						<li><a href="#">Home</a></li>
+						<li><LinkContainer to="/"><a href="#">Home</a></LinkContainer></li>
 						<li className="submenu">
 							<a href="#">Collections</a>
 							<ul>

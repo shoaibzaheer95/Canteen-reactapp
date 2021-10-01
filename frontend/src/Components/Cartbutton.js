@@ -1,18 +1,18 @@
 import {React,useState} from 'react'
 //import Modal from './Modal.js';
-//import CartModal from './CartModal'
+import CartModal from './CartModal'
 
 
 const Cartbutton = () => {
-  const [isActive, setActive] = useState(false);
-
-	const toggleClass = () => {
-		setActive(!isActive);
-	};
+  const [show, setShow] = useState();
+	
   return (
-    <a href="#" className={isActive? 'emptycart active': 'emptycart'} onClick={toggleClass}>
+  	<>
+    <a href="#" className={`emptycart ${show ? 'show' : ''} `} onClick={() => setShow(!show)}>
           <img src="../images/emptycart.svg" alt="emptycart" />
-      </a> 
+      </a>
+
+      </>
   )
 }
 
