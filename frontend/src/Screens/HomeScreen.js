@@ -6,14 +6,14 @@ const HomeScreen = () => {
 
   return (
     <>
-      <section class="bnd-new">
-          <div class="bnd-row">
-            <h3 class="pro-title new-title">New Products</h3>
+      <section className="bnd-new">
+          <div className="bnd-row">
+            <h3 className="pro-title new-title">New Products</h3>
           </div>
-          <div class="bnd-row">
+          <div className="bnd-row">
 
-            <div class="collection-slider new-slider">
-              <div class="collection-wrapper new">
+            <div className="collection-slider new-slider">
+              <div className="collection-wrapper new">
                   {products.map((product) => (
                       <Product product={product} />
                   ))}

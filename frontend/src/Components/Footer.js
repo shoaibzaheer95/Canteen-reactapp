@@ -1,12 +1,12 @@
 import React from "react";
 import { LinkContainer } from 'react-router-bootstrap';
-import Cartbutton from './Cartbutton';
-
+import CartModal from './CartModal'
 
 const Footer = () => {
+
   return (
   <>
-    <div classNameName="bnd-footer">
+    <div className="bnd-footer">
       <div className="stickyhome-bar ">
         <div className="bnd-row">
           <div className="tapicon-row">
@@ -23,10 +23,9 @@ const Footer = () => {
               </LinkContainer>
             </div>
             <div className="tapicon">
-              {/* <a href="#" className="emptycart" >
+               <a href="#" className="emptycart" >
                 <img src="../images/emptycart.svg" alt="emptycart" />
-              </a> */}
-              <Cartbutton/>
+              </a> 
             </div>
           </div>
         </div>
@@ -34,6 +33,8 @@ const Footer = () => {
 
 
       </div>
+
+      <CartModal/>
       
   </>
 

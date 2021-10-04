@@ -3,6 +3,7 @@ import {LinkContainer} from 'react-router-bootstrap'
 
 const SideMenu = () => {
 	
+
   return (
 	<>
 		<div  className="sidemenu-bar">

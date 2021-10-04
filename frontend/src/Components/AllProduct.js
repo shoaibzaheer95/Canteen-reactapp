@@ -14,10 +14,10 @@ const AllProduct = () => {
 			<div className="bnd-row">
 				<div className="pro-wrapper">
                 {products.map((product) => (
-                      <Product product={product}/>
+                      <Product product={product}  />
                   ))}
-                    <div class="load-col">
-						<a href="#" class="load-pro">View All Products</a>
+                    <div className="load-col">
+						<a href="#" className="load-pro">View All Products</a>
 					</div>
                 </div>
             </div>

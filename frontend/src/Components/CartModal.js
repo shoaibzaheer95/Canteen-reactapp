@@ -1,10 +1,13 @@
 import {React} from 'react';
 
+
 const CartModal = () => {
+
+   
   return (
     <>
     
-      <div className="modal-cart-wrapper checkoutM ">
+      <div className="modal-cart-wrapper checkoutM hide">
             <div className="cart-cut"> 
                 <div className="upper-cart">
                     <div className="bnd-row">

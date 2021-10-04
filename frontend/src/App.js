@@ -17,7 +17,7 @@ const App = () => {
             <Route path='/' exact  render={() =>
               <>
                 <Header />
-                <HomeScreen />
+                <HomeScreen / >
                 <Collection />
                 <AllProduct/>
               </>
